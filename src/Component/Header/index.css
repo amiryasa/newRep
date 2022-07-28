@@ -1,26 +1,103 @@
 
 .header{
-    width:100%; 
+    width:100%;
+    margin-top: 26px;
 }
 
 .header > .headerRow {
-    border: 1px solid red;
     height:82px;
     float: right;
 }
 
 .header > .headerLogo{
     width: 9%;
-    font-size: 13px;
+    font-size: 24px;
     margin-right: 58px;
+    height:82px;
+    background-image: url(./../../image/header/logo.png);
+    background-position:  50% 0;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-align: center;
+}
+
+.header > .headerLogo > p{
+    margin-top: 55px;
+    font-family: arshia;
+    letter-spacing: .6px;
+    color:#1762BC;
 }
 
 .header > .headerNavbar{
-    width: 28.4%;
+    width: 29.89%;
     margin-right: 70px;
+    text-align: right;
+}
+
+.header > .headerNavbar > p:hover{
+    color: #494949;
+}
+
+.header > .headerNavbar > p{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #808080;
+    margin-left: 28px;
+}
+
+.header > .headerNavbar > p:nth-child(5){
+    cursor: default;
+    font-size: 23px;
+    color: #043D72;
+    text-decoration: underline;
 }
 
 .header > .headerLogin{
     width: 8.45%;
-    margin-right: 485px;
+    margin-right: 466px;
+    margin-top:20px;
+    height: 44px;
+    background-color:#00ADEF;
+    border-radius: 33px;
 }
+
+.header > .headerLogin > .loginUser:hover{
+    background-color: #0093cd;
+}
+
+.header > .headerLogin > .loginUser{
+    transition: .5s;
+    background: url(./../../image/header/user.png) center;
+    background-repeat: no-repeat;
+    background-size: 29px;
+    height:29px;
+    width:29px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding:5px;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.header > .headerLogin > .loginSearch:hover{
+    background-color: #0093cd;
+}
+
+.header > .headerLogin > .loginSearch{
+    transition: .5s;
+    background: url(./../../image/header/search.png) center;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    height:29px;
+    width:29px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding:5px;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+
